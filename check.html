@@ -1,0 +1,33 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="jquery-ui.css" rel="stylesheet">
+    <script src="jquery-ui.js"></script>
+    <style type="text/css">
+        #entered{
+            height: 100%;
+            width:50%;
+        }
+        #paragraph{
+            height:100%;
+            width: 50%;
+            float:left;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <input id="entered" type="text">
+    <input type="submit" id="click">
+    <p id ="paragraph"></p>
+    
+    <script type="text/javascript">
+    $("#click").click(function(){
+    document.getElementById("paragraph").innerHTML="THE CHAMP IS HERE";
+    });
+    
+    
+    
+    </script>
+    </body></html>
